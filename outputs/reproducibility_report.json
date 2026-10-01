@@ -1,0 +1,41 @@
+{
+  "project": "Salary Prediction",
+  "seed": 42,
+  "validation": {
+    "valid": true,
+    "rows": 30,
+    "columns": 2,
+    "duplicate_rows": 0
+  },
+  "processed_shapes": {
+    "X_train": [
+      24,
+      1
+    ],
+    "X_test": [
+      6,
+      1
+    ],
+    "y_train": [
+      24
+    ],
+    "y_test": [
+      6
+    ]
+  },
+  "reproducible": true,
+  "artifact_hashes": {
+    "data/processed/X_train_final.npy": "bfbcd005546ef9147bca6e8ebe2af815703863594298d53addd4b2f8644643a3",
+    "data/processed/X_test_final.npy": "15ecf7a68409e1139009616c415bd0a2709804b1884d72f9d8684a776e83fece",
+    "data/processed/y_train.npy": "7f4bb2597ff90702e12bb18d77ce4113927a8c2f4be7cf68789b72629350681e",
+    "data/processed/y_test.npy": "29f6b5df523f966bcfb9daf1655e328d936f20d5697abc44deb45689551a49ff",
+    "models/scaler.pkl": "e0bbdb639d68f1a422478c139e6db7dd641b4b4a156f45c80620e1b86ccb96ab",
+    "models/linear_regression.pkl": "b40e8593971805fcace9f8d91be46405039211678956a7393103456332f83b75",
+    "models/polynomial_regression.pkl": "4c397ed19a1b53a9b7b3dfba427c128af119ed80a0d7b1b4dbf1e1c88bf2209a",
+    "models/svr.pkl": "d266ccdde86d769ecced4ae6324c8a74638796ba9d37b08c24c1b2e96cfb9a30",
+    "models/random_forest_baseline.pkl": "9a530f8fb4cb5756637cdb054abe0f0acd554b28d13b3a566cb3fb1ed585328e",
+    "outputs/model_comparison.csv": "77df9cd0be54c03213af4ec0900ce2b2b985eca4a3086943589fd98ab54ee63e",
+    "outputs/predictions.npy": "1bbdcb3701dc8eb16c30b320d2978507af91c9dfa3052d94a92af6fe003d034c",
+    "outputs/actual_vs_predicted.csv": "6c7de3d35188da35f64d5f7c6bde7888f5b7309f101db697837d92b4d4e4af61"
+  }
+}

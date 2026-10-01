@@ -1,0 +1,18 @@
+{
+  "model_name": "salary-random-forest",
+  "version": 16,
+  "run_id": "959c7c7c9f0b4d23887b749a42790a9c",
+  "aliases": {
+    "candidate": 16,
+    "champion": 16
+  },
+  "model_uri": "models:/salary-random-forest@champion",
+  "tracking_uri": "sqlite:///C:/Users/Admin/OneDrive/Desktop/salary/salary-prediction-final/salary-prediction/mlflow.db",
+  "metrics": {
+    "mae": 6637.701051256617,
+    "mse": 58473474.094221435,
+    "rmse": 7646.795021067417,
+    "r2": 0.8855247876793645
+  },
+  "prediction_verification": "passed"
+}

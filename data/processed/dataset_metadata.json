@@ -1,0 +1,39 @@
+{
+  "project": "Salary Prediction",
+  "dataset_file": "data/raw/salary.csv",
+  "source_shape": [
+    30,
+    2
+  ],
+  "cleaned_shape": [
+    30,
+    2
+  ],
+  "feature_columns": [
+    "YearsExperience"
+  ],
+  "target_column": "Salary",
+  "task": "regression",
+  "test_size": 0.2,
+  "random_state": 42,
+  "train_shape": [
+    24,
+    1
+  ],
+  "test_shape": [
+    6,
+    1
+  ],
+  "scaling": "StandardScaler fitted on training data only",
+  "categorical_encoding": "Not used; no categorical features in source dataset",
+  "rows_removed_during_cleaning": 0,
+  "feature_count_after_preprocessing": 1,
+  "dataset_summary": {
+    "years_experience_min": 1.1,
+    "years_experience_max": 10.5,
+    "salary_min": 37731.0,
+    "salary_max": 122391.0,
+    "salary_mean": 76003.0,
+    "years_experience_salary_correlation": 0.9782416184887599
+  }
+}

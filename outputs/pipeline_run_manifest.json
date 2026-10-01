@@ -1,0 +1,29 @@
+{
+  "pipeline": "salary_prediction_mlops",
+  "completed_at_utc": "2026-10-01T02:58:51.677177+00:00",
+  "dataset": {
+    "path": "data/raw/salary.csv",
+    "sha256": "d08810539271ed90770ea964e666c4befc11ad7919b0c73f17a2dcde8503b4ae"
+  },
+  "stages": [
+    "Lab 3 - Baseline Regression",
+    "Lab 4 - MLflow Experiment Tracking",
+    "Lab 5 - Data Validation and Reproducibility",
+    "Lab 6 - Model Registry and Versioning"
+  ],
+  "registered_model": {
+    "name": "salary-random-forest",
+    "version": 16,
+    "uri": "models:/salary-random-forest@champion",
+    "metrics": {
+      "mae": 6637.701051256617,
+      "mse": 58473474.094221435,
+      "rmse": 7646.795021067417,
+      "r2": 0.8855247876793645
+    }
+  },
+  "reports": {
+    "registry": "outputs\\model_registry_report.json",
+    "validation": "outputs\\reproducibility_report.json"
+  }
+}
